@@ -2,6 +2,13 @@ Go for the C# Developer
 =======================
 Code samples to go along with "A Tour of Go for the C# Developer" video and article series (links coming soon). The aim is to provide an overview of Go (golang) language features for developers familiar with the C# language.
 
+Motivation
+----------
+Learning other programming languages enhances our work in our primary language. From the perspective of a C# developer, the Go language (golang) has many interesting ideas. Go is opinionated on some things (such as where curly braces go and what items are capitalized). Declaring an unused variable causes a compile failure; the use of "blank identifiers" (or "discards" in C#) are common. Concurrency is baked right in to the language through goroutines and channels. Programming by exception is discouraged; it's actually called a "panic" in Go. Instead, errors are treated as states to be handled like any other data state. We'll explore these features (and others) by building an application that uses concurrent operations to get data from a service. These ideas make us think about the way we program and how we can improve our day-to-day work (in C# or elsewhere).  
+
+Project Layout
+--------------
+
 **/async** contains the Go program  
 **/net-core-people-service** contains a .NET Core 3.1 service (used by the Go program)  
 
