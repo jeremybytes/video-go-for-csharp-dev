@@ -62,9 +62,8 @@ type person struct {
 func (p person) String() string {
 	if p.FormatString != "" {
 		return fmt.Sprintf("%s %s", p.FamilyName, p.GivenName)
-	} else {
-		return fmt.Sprintf("%s %s", p.GivenName, p.FamilyName)
 	}
+	return fmt.Sprintf("%s %s", p.GivenName, p.FamilyName)
 }
 
 func main() {
