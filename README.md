@@ -6,7 +6,7 @@ Motivation
 ----------
 Learning other programming languages enhances our work in our primary language. From the perspective of a C# developer, the Go language (golang) has many interesting ideas. Go is opinionated on some things (such as where curly braces go and what items are capitalized). Declaring an unused variable causes a compile failure; the use of "blank identifiers" (or "discards" in C#) are common. Concurrency is baked right in to the language through goroutines and channels. Programming by exception is discouraged; it's actually called a "panic" in Go. Instead, errors are treated as states to be handled like any other data state. We'll explore these features (and others) by building an application that uses concurrent operations to get data from a service. These ideas make us think about the way we program and how we can improve our day-to-day work (in C# or elsewhere).  
 
-Video Walkthrough: [A Tour of Go (golang) for the C# Developer](https://youtu.be/NW-8WpnGQtE)
+**Video Walkthrough**: [A Tour of Go (golang) for the C# Developer](https://www.youtube.com/watch?v=NW-8WpnGQtE)
 
 Project Layout
 --------------
@@ -52,30 +52,39 @@ The **/async** folder contains the "main.go" file which is the completed project
 In addition, subfolders provide the "main.go" file at intermediate steps along the way.
 
 **/step01**  
+Video Chapter: [Basics](https://youtu.be/NW-8WpnGQtE?t=160)  
 Basics including package, import, functions, braces, package exports, variable assignment, named return values, and bare returns. Also, the Go extension for Visual Studio Code that handles formatting, imports, and linting.
 
 **/step02**  
+Video Chapter: [Calling a web service](https://youtu.be/NW-8WpnGQtE?t=740)  
 Calls a web service to get a list of IDs. Concepts include multiple return values, handling errors, parsing JSON, and using "defer" to run functions.
 
 **/step03**  
+Video Chapter: [Parsing JSON](https://youtu.be/NW-8WpnGQtE?t=1415)  
 Calls a web service to get an individual "Person" record. Concepts include creating a struct type, exposing properties, creating formatted strings, another way to parse JSON, and printing to the console.
 
 **/step04**  
+Video Chapter: ["for" loops](https://youtu.be/NW-8WpnGQtE?t=2186)  
 Outputs a complete collection of "Person" records. Concepts include the for loop (indexers and range) as well as blank identifiers
 
 **/step05**  
+Video Chapter: [Interfaces and methods](https://youtu.be/NW-8WpnGQtE?t=2460)  
 Creates a default formatter for the "person" type. Concepts include interfaces, methods, and method receivers.
 
 **/step 06**  
+Video Chapter: [Time and Args](https://youtu.be/NW-8WpnGQtE?t=3005)  
 Adds an elapsed time to output and reads a command-line argument. Concepts include time, duration, duration output, and checking for application arguments.
 
 **/step07**  
+Video Chapter: [Concurrency](https://youtu.be/NW-8WpnGQtE?t=3310)  
 Gets all of the "Person" records at the same time by making multiple concurrent service calls. Concepts include goroutines, channels, make(), writing to channels, and reading from channels.
 
 **/step08**  
+Video Chapter: [Errors](https://youtu.be/NW-8WpnGQtE?t=4030)  
 Adds an "error" return value to the "getIDs" method. Concepts include creating error objects, appending error messages, multiple return values, exiting on error, and using "log.Fatalf()".
 
 **/step09**  
+Video Chapter: [Concurrency and errors](https://youtu.be/NW-8WpnGQtE?t=4480)  
 Adds an "error" return value to the "getPerson" method. Concepts include checking HTTP status codes, short-circuiting loops, more on writing & reading channels.
 
 **Other Topics**  
