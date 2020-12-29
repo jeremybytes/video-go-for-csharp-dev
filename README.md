@@ -1,6 +1,6 @@
-Go for the C# Developer
+Video: Go for the C# Developer
 =======================
-Code samples to go along with "A Tour of Go for the C# Developer" video and article series (links coming soon). The aim is to provide an overview of Go (golang) language features for developers familiar with the C# language.
+Code samples to go along with "A Tour of Go for the C# Developer" video (link below). The aim is to provide an overview of Go (golang) language features for developers familiar with the C# language.
 
 Motivation
 ----------
