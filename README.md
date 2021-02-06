@@ -88,4 +88,21 @@ Video Chapter: [Concurrency and errors](https://youtu.be/NW-8WpnGQtE?t=4480)
 Adds an "error" return value to the "getPerson" method. Concepts include checking HTTP status codes, short-circuiting loops, more on writing & reading channels.
 
 **Other Topics**  
-This is by no means an exhaustive look at Go. Additional topics and topics to look into further include packages, exports, project structure, types, interfaces, pointers, inline goroutines, closures, and "sync.WaitGroup".
+This is by no means an exhaustive look at Go. Additional topics and topics to look into further include packages, exports, project structure, types, interfaces, pointers, inline goroutines, closures, and "sync.WaitGroup".  
+
+Here are a few articles (written by me):  
+* [Go (golang) Loops - A Unified "for"](https://jeremybytes.blogspot.com/2021/01/go-golang-loops-unified-for.html)  
+* [Go (golang) defer - A Better "finally"](https://jeremybytes.blogspot.com/2021/01/go-golang-defer-making-sure-something.html)  
+* [Go (golang) Error Handling - A Different Philosophy](https://jeremybytes.blogspot.com/2021/01/go-golang-error-handling-different.html)  
+* [Go (golang) Multiple Return Values - Different from C# Tuples](https://jeremybytes.blogspot.com/2021/01/go-golang-multiple-return-values.html)  
+* [Go (golang) Goroutines - Running Functions Asynchronously](https://jeremybytes.blogspot.com/2021/01/go-golang-goroutines-running-functions.html)  
+* [Go (golang) Channels - Moving Data Between Concurrent Processes](https://jeremybytes.blogspot.com/2021/01/go-golang-channels-moving-data-between.html)  
+* [Go (golang) WaitGroup - Signal that a Concurrent Operation is Complete](https://jeremybytes.blogspot.com/2021/02/go-golang-waitgroup-signal-that.html)  
+* [Go (golang) Anonymous Functions - Inlining Code for Goroutines](https://jeremybytes.blogspot.com/2021/02/go-golang-anonymous-functions-inlining.html)  
+* [Go and Interfaces](https://jeremybytes.blogspot.com/2020/07/go-and-interfaces.html)  
+
+Other Resources:
+* Learn Go interactively: [A Tour Of Go](https://tour.golang.org/)  
+* The official site: [golang.org](https://golang.org/)  
+* Installation: [Getting Started](https://golang.org/doc/install)  
+* Visual Studio Code extension: [Go Language Extension](https://code.visualstudio.com/docs/languages/go)  
